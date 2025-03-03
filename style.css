@@ -298,6 +298,7 @@ section .title::after{
     color: #fff;
 }
 .services .serv-content .card .text{
+    color: crimson;
     font-size: 25px;
     font-weight: 500;
     margin: 10px 0 7px 0;
@@ -363,19 +364,22 @@ section .title::after{
     background: crimson;
 }
 .skills-content .right .html::before{
-    width: 90%;
+    width: 100%;
 }
 .skills-content .right .css::before{
-    width: 60%;
+    width: 100%;
 }
 .skills-content .right .js::before{
     width: 80%;
 }
 .skills-content .right .php::before{
-    width: 50%;
+    width: 80%;
 }
 .skills-content .right .mysql::before{
-    width: 70%;
+    width: 80%;
+}
+.skills-content .right .react::before{
+    width: 50%;
 }
 
 /* teams section styling */
@@ -408,6 +412,11 @@ section .title::after{
     font-weight: 500;
     margin: 10px 0 7px 0;
 }
+
+.card > .box > p > a{
+color: crimson;
+}
+
 .teams .carousel .card img{
     height: 150px;
     width: 150px;

@@ -67,3 +67,15 @@ $(document).ready(function(){
         }
     });
 });
+
+document.addEventListener("DOMContentLoaded", function () {
+    // Seleciona todos os inputs e textarea desabilitados
+    const disabledFields = document.querySelectorAll("input:disabled, textarea:disabled");
+
+    // Aplica a cor desejada
+    disabledFields.forEach(field => {
+        field.style.color = "#555"; // Cinza escuro (ou outra cor de sua escolha)
+        field.style.backgroundColor = "#f0f0f0"; // Para destacar melhor
+        field.style.cursor = "not-allowed"; // Indica que está desabilitado
+    });
+});
